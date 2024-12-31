@@ -106,7 +106,7 @@ public class DigitalLibraryManagement {
 			if(book.isIssued) {
 				book.isIssued = false;
 				String userName = issuedBooks.remove(bookId);
-				System.out.println("Book returnd successfully by" + userName);
+				System.out.println("Book returned successfully by" + userName);
 			}
 			else {
 				System.out.println("This book was not issued.");
